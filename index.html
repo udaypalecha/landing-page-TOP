@@ -3,64 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
   <title>Landing Page | TOP</title>
 </head>
 <body>
   <header>
-    <div class="wrapper">
-      <h1>Header Logo</h1>
-      <nav class="header-nav">
-        <ul>
-          <li>header link one</li>
-          <li>header link two</li>
-          <li>header link three</li>
-        </ul>
-      </nav>
-    </div>
+    <h1 class="logo nav-logo header-logo">Header Logo</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">header link one</a></li>
+        <li><a href="#">header link two</a></li>
+        <li><a href="#">header link three</a></li>
+      </ul>
+    </nav>
   </header>
+
   <main>
     <section class="hero">
-      <div class="hero-content">
-        <h2>This website is awesome</h2>
+      <div class="content hero-content">
+        <h2>This website is awful</h2>
         <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
         <button id="hero-signup" class="signup">Sign up</button>
       </div>
-      <img src="" alt="this is a placeholder for an image">
+      <div class="hero-img">
+        <img src="" alt="this is a placeholder for an image">
+      </div>
     </section>
     <section class="info">
       <!--Added the div below within main-info to ensure EXTENSIBILITY of the website i.e. more info can be easily added & styled later on-->
       <div class="info-1">
         <h2>Some random information</h2>
-        <div>
+        <div class="fig-wrap">
           <figure>
-            <img src="" alt="Random img">
+            <img class="fig-img" src="">
             <figcaption>this is some subtext under an illustration or image</figcaption></figure>
           <figure>
-            <img src="" alt="Random img">
+            <img class="fig-img" src="">
             <figcaption>this is some subtext under an illustration or image</figcaption></figure>
           <figure>
-            <img src="" alt="Random img">
+            <img class="fig-img" src="">
             <figcaption>this is some subtext under an illustration or image</figcaption></figure>
           <figure>
-            <img src="" alt="Random img">
+            <img class="fig-img" src="">
             <figcaption>this is some subtext under an illustration or image</figcaption></figure>
         </div>
       </div>
     </section>
     <section class="testimonials">
-      <div class="testimonial-1">
-        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+      <div class="testimonial" id="testimonial-1">
+        <em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</em>
         <p>-Thor, God of Hammers</p>
       </div>
     </section>
   </main>
+
   <aside>
     <div class="cta call-to-action">
-      <p>Call to action! It's time!</p>
-      <p>Sign up for our product by clicking that button right over there!</p>
+      <div class="content cta-content">
+        <strong>Call to action! It's time!</strong>
+        <p>Sign up for our product by clicking that button right over there!</p>
+      </div>
       <button id="cta-signup" class="signup">Sign up</button>
     </div>
   </aside>
+
   <footer>
     <p>Copyright © The Odin Project 2021</p> <!--(Actually 29th May 2023)-->
   </footer>

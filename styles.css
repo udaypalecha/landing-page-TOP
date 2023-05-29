@@ -1,0 +1,162 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header,.hero,.info,.testimonials,aside,footer {
+  margin: 0;
+  padding: 0 200px;
+}
+
+header,.nav-links,.hero,.fig-wrap,.cta,.footer {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-left: 24px;
+}
+
+header,.cta,.hero {
+  justify-content: space-between;
+}
+
+header,footer,.hero {
+  background-color: #1f2937;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+/* Hero Section: */
+
+.hero-content {
+  padding: 85px 0;
+}
+
+header a, .hero-content p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-content h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.hero-content h2, p {
+  margin: 0;
+}
+
+#hero-signup {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: 600;
+  border-radius: 8px;
+  border-color: #3882f6;
+  padding: 6px 28px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.hero-img {
+  height: 200px;
+  flex: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  background-color: #6d747e;
+  margin-left: 50px;
+}
+
+/* Information Section: */
+
+.info-1 h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.fig-img {
+  width: 138px;
+  height: 138px;
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+}
+
+.fig-wrap {
+  color: #6d747e;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+/* Testimonials section: */
+
+.testimonials {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  padding: 100px 232px 50px;
+}
+
+.testimonial p {
+  font-size: 22px;
+  text-align: right;
+  font-weight: 700;
+  font-style: normal;
+  padding-right: 48px;
+}
+
+/* Call to action section: */
+
+.cta {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 32px 100px;
+  border-radius: 6px;
+  margin: 100px auto;
+}
+
+.cta-content strong {
+  font-size: 22px;
+  margin: 0;
+}
+.cta-content p {
+  margin: 0;
+  color: #e5e7ebb6;
+}
+
+#cta-signup {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 2px solid #e5e7eb;
+  padding: 6px 28px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+/* Footer: */
+
+footer {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 32px 0px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
