@@ -100,6 +100,7 @@ header a, .hero-content p {
 /* Testimonials section: */
 
 .testimonials {
+  font-family: Corbel, 'Segoe UI';
   background-color: #e5e7eb;
   font-size: 36px;
   font-style: italic;
